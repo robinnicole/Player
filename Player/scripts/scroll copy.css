@@ -1,0 +1,209 @@
+
+@font-face{
+
+   font-family:'Uptown';
+    src:url(font/Uptown.ttf);
+    format('truetype');
+}
+
+#content_wrapper { 
+	position: relative; /* relative positioning for transitions to work? */
+	width: 100%; /* max width */
+	height: 1000px; /* height of 600px for now */
+	overflow: hidden; /* hide the overflow for transitions to work */
+	margin-bottom: -200px; /* negative bottom margin */
+	
+}
+.pin-frame { 
+	position: absolute; 
+	width: 100%;
+	height: 100%;
+	overflow: hidden; 
+
+}
+
+
+
+#green{
+
+/* position: fixed; */
+top: 100%;
+width: 100%;
+height: 100%;
+background-color: green;
+
+
+
+}
+
+#standPage_wrap{
+position: absolute;
+width: 100%;
+height: 100%;
+font-family: "Uptown";
+
+
+}
+
+#title{
+position:absolute;
+width: 510px;
+height: 155px;
+top: 20%;
+left: 25%;
+font-size: 240px;
+color: #B6BBC6;
+text-align: center;
+
+ font-family: "Uptown"; 
+}
+
+#manGrey {
+
+position: absolute;
+/* position: relative; */
+float: left; 
+top: 120px; 
+width: 410px;
+height: 750px;
+opacity: .7;
+}
+
+
+#intromovie {
+/* position: absolute; */
+top: 100%;
+width: 100%;
+height: 100%;
+background-color: aqua;
+
+
+}
+
+#arrow.scroll{
+position: fixed;
+left: 50%;
+top: 92%;
+width: 60px;
+height: 70px;
+
+background-color:rgba(160, 165, 173, 0.9);
+/*
+background-color: #a0a5ad;
+opacity: 0.5;
+*/
+}
+
+
+
+
+#blue{
+
+/* position: fixed; */
+top: 100%;
+width: 100%;
+height: 100%;
+color:white;
+font-size: 34px;
+background-color: blue;
+
+
+
+}
+
+#impact{
+/* position: absolute; */
+width: 700px;
+height: 500px;
+top: 25%;
+left: 20%;
+font-family: 'Futura';
+font-weight: bold;
+background-color: lime;
+
+
+}
+
+
+
+
+/*
+
+#blue{
+position: absolute;
+top: 1000px;
+width: 100%;
+height: 1000px;
+
+background-color: #3F4449; 
+
+
+background: url(../images/background2.jpeg) no-repeat center center fixed; 
+	
+-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+margin: auto;
+
+
+}
+*/
+
+
+#red{
+/* position: absolute; */
+top: 100%;
+width: 100%;
+height: 100%;
+background-color: red; 
+
+}
+
+#movie1 {
+/* position: absolute; */
+top: 100%;
+width: 100%;
+height: 100%;
+background-color: fuchsia;
+
+
+}
+
+
+
+#movieplayer{
+/* position: absolute */; 
+margin-top: 5%; 
+border-radius: 10px 10px 10px 10px;
+left: 10%;
+/* background-color: black; */
+}
+
+#history1{
+
+/* position: fixed; */
+top: 100%;
+width: 100%;
+height: 100%;
+color:white;
+font-size: 34px;
+background-color: purple;
+
+
+}
+
+#text_box{
+position: relative;
+/* top: 80px; */
+top: 0px;
+font-size: 32px;
+padding-left: 5px;
+font-family: 'Wire One';
+font-style: italic; 
+line-height: 1.5;
+letter-spacing: 1.3px;
+color: rgba(255,255,255,.8);
+/* opacity: .9;  */
+}
+

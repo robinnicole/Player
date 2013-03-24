@@ -1,0 +1,159 @@
+
+
+@font-face{
+font-family: 'Wire One', sans-serif;
+src: url(http://fonts.googleapis.com/css?family=Wire+One);
+} 
+
+
+#NYCLU_info {
+
+width: 850px;
+height: 120px;
+margin-left: 252px;
+/* background-color: yellow; */
+/* font-family: 'Wire One'; */
+font-family: 'Futura';
+font-style: italic;
+font-size: 26px;
+letter-spacing: 1.7px;
+font-style: italic;
+color: rgba(255,255,255,.8);
+
+}
+
+p.credits {
+font-size: 18px;
+float: right;
+color: rgba(255,255,255,.8);
+line-height: normal;
+}
+
+#nycluinfo{
+
+position: absolute;
+top: 600px;
+left: 130px;
+}
+
+#chart_wrap{
+
+position: absolute;
+width: 800px;
+height: 590px;
+margin-left: 252px;
+margin-top: 2px;
+/*
+ background: url(../images/white_paperboard.png) no-repeat center fixed; 
+-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+border-radius: 4px;
+*/
+
+/* background-color: white;  */
+
+
+}
+
+#chart{
+
+position: absolute;
+height: 600px;
+width: 580px;
+top: -6px;
+left: 190px;
+
+}
+
+#white_male{
+
+position: absolute;
+top:-14px;
+}
+
+#white_male_facts {
+position: absolute;
+top:30px;
+/* background-color: #1A1A1A;  */
+
+}
+
+#black_male{
+position: absolute;
+top:397px;
+
+
+}
+
+#black_male_facts {
+position: absolute;
+top:417px;
+/* background-color: #1A1A1A; */
+}
+
+#latino_male {
+position: absolute;
+top: 219px;
+}
+
+#latino_male_facts{
+
+position: absolute;
+top: 225px;
+/* background-color: #1A1A1A; */
+}
+
+.row {
+
+
+height: 147px;
+width: 505px;
+list-style: none;
+margin-bottom: 5px;
+left: 0px;
+
+}
+
+.cover{
+
+
+height: 100px;
+width: 583px;
+list-style: none;
+background-color:rgba(26,26,26,.9);
+text-align: center;
+padding-top: 5px;
+font-family: 'Helvetica';
+font-size: 70px;
+color: white;
+
+}
+
+
+#icon_div{
+
+position: absolute;
+/* margin-left: 50px; */
+height: 500px;
+width: 100px;
+font-family: 'Wire One';
+color: #1A1A1A;
+font-weight: bold;
+font-size: 20px;
+top: 0px;
+
+}
+
+ul li{
+list-style: none;
+margin-bottom: 15px;
+
+}
+
+a href{
+
+text-decoration: underline:
+}

@@ -1,0 +1,129 @@
+@font-face{
+
+   font-family:'Uptown';
+    src:url(font/Uptown.ttf);
+    format('truetype');
+}
+
+body {
+
+/* background-color: #3F4449; */
+
+}
+
+/*
+#standPage_wrap{
+position: absolute;
+width: 1000px;
+height: 1000px;
+font-family: "Uptown";
+top: 0px;
+left:0px;
+
+}
+*/
+/*
+
+#wall{
+
+ position: absolute; 
+position: relative;
+top:60px;
+left:0px;
+width: 500px;
+height: 700px;
+opacity: .3;
+}
+*/
+/*
+
+#right_wall{
+ position:absolute;     
+position: relative;  
+top: 60px;
+left:445px;  
+float:right;  
+width:500px;
+height: 700px;
+opacity: .3;
+}
+*/
+
+
+#title{
+position:absolute;
+width: 510px;
+height: 155px;
+top: 20%;
+left: 25%;
+font-size: 240px;
+color: #B6BBC6;
+text-align: center;
+
+ font-family: "Uptown"; 
+}
+
+
+/*
+h1{
+position: relative;
+font-size: 140px;
+color: #B6BBC6;
+text-align: center;
+font-family: "Uptown";
+width:500px; 
+height: 149px;
+*/
+/* left: 510px; */
+
+
+/* } */
+
+#manGrey {
+
+position: absolute;
+/* position: relative; */
+float: left; 
+top: 120px; 
+width: 410px;
+height: 750px;
+opacity: .7;
+}
+
+
+/*
+#video_container{
+position: absolute;
+width: 565px;
+height: 485px;
+
+top: 155px; 
+left: 485px; 
+clear:right;
+}
+
+#video_player{
+position: relative; 
+top:0px;
+
+
+
+}
+
+#footnote{
+position: absolute;
+top: 400px;
+left:20px;
+color: white;
+font-family: Helvetica;
+font-size: 18px;
+
+}
+*/
+
+
+
+
+
+
+

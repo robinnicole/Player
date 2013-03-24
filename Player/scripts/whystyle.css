@@ -1,0 +1,215 @@
+@font-face{
+font-family: 'Wire One', sans-serif;
+src: url(http://fonts.googleapis.com/css?family=Wire+One);
+} 
+
+body{
+
+background-color: #3F4449;
+
+}
+.display_none {
+
+display: none;
+}
+
+#why_wrap{
+
+width: 1200px;
+height: 800px;
+
+}
+
+#why_mat{
+
+position: absolute;
+margin-top: 48px;
+height: 850px;
+width: 800px;
+margin-left: 5px;
+/* background-color: white; */
+/* opacity: .75; */
+
+}
+
+#legal {
+
+position: relative;
+width: 305px;
+height: 80%;
+color: white;
+/* background-color: aqua; */
+margin-left: 20px;
+/* top: 20px; */
+top: 0px;
+}
+
+#text_box{
+position: relative;
+/* top: 80px; */
+top: 0px;
+font-size: 32px;
+padding-left: 5px;
+font-family: 'Wire One';
+font-style: italic; 
+line-height: 1.5;
+letter-spacing: 1.3px;
+color: rgba(255,255,255,.8);
+/* opacity: .9;  */
+}
+
+#quote{
+font-size: 16px;
+float: right;
+}
+
+#jinhee{
+
+position: relative;
+top: 25px;
+}
+
+
+#documents{
+position: absolute;
+left: 387px;
+top: 0px;
+height: 100%;
+width: 412px;
+border-left-style: solid;
+border-left-color: white;
+border-left-width: 2px;
+
+
+
+}
+
+#documents ul {
+
+top: 0px;
+list-style: none;
+left: 20px;
+
+}
+
+#documents li {
+
+	display: block;
+	width: 355px;
+	height: 85px;
+	margin-bottom: 80px;
+
+	padding-top: 10px;
+	padding-bottom: 12px;
+	padding-left: 8px;
+	padding-right: 8px;
+	background: #b9cf6a;
+	background: rgba(255,255,255,.8);
+/* 	border-color: #e3ebc3; */
+	border-color: rgb(255,255,255);
+	border-style: solid;
+	border-width: thick;
+	-webkit-box-shadow: rgba(0,0,0,0.4) 0 4px 10px;
+	-moz-box-shadow: rgba(0,0,0,0.4) 0 4px 10px;
+	box-shadow: rgba(0,0,0,0.4) 0 4px 10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+/* 	font-style: italic; */
+
+
+
+}
+
+#documents li.docHover{
+background-color: white;
+background: rgba(255,255,255);
+border-color: rgba(255,255,255,);
+border-width: thick;
+}
+
+
+#reader{
+
+position: absolute;
+left: 810px;
+width: 600px;
+height: 777px;
+top: 55px;
+/*
+border-left-color: white;
+border-left-style: solid;
+border-left-width: 1px;
+*/
+
+/* background-color: white; */
+}
+
+/*
+#cover1 {
+
+position: absolute;
+left: 20px;
+top: 20px;
+width: 350;
+height:140px;
+background-color: yellow;
+}
+*/
+
+#reader_cover1 {
+position: absolute;
+left: 20px;
+height: 780px;
+width: 620px;
+top: 20px;
+background-color: #3F4449;
+
+}
+
+#kellyquinn {
+position: absolute;
+left: 20px;
+height: 720px;
+width: 620px;
+top: 20px;
+
+
+}
+
+#story{
+
+position: absolute;
+left: 20px;
+height: 720px;
+width: 620px;
+top: 20px;
+
+}
+
+#report2011 {
+position: absolute;
+left: 20px;
+height: 720px;
+width: 620px;
+top: 20px;
+}
+
+#Floyd {
+
+position: absolute;
+left: 20px;
+height: 720px;
+width: 620px;
+top: 20px;
+
+}
+
+
+.cover {
+
+
+height:500px;
+width: 600px;
+padding-top: 10px;
+}

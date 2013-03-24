@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+ <html xmlns="http://www.w3.org/1999/xhtml"> 
+
+
+ 	<head>
+
+ 		<title>FRISKED: NYC's controversial policing strategy</title>
+ 	
+ 		<meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
+ 		<script src="http://popcornjs.org/code/dist/popcorn-complete.min.js"></script>
+ 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+ 		<link rel="stylesheet" type="text/css" href="scripts/standstyle.css">
+ 		<link rel="stylesheet" type="text/css" href="scripts/styles5.css">
+ 		<script type="text/javascript" src="scripts/frisked.js"></script>
+<!--  		<link rel="stylesheet" type="text/css" href="scripts/whystyle.css"> -->
+
+
+   	</head> 
+  	
+	  	<script> 
+   		 
+
+    		  document.addEventListener( "DOMContentLoaded", function () {
+
+       
+         		var pop = Popcorn("#video_player");
+         		
+				pop.footnote({
+            	start: 2,
+           		end: 22,
+          	 	target: "footnote",
+         		text: "Brooklyn, New York"
+           });
+           
+           		pop.code({
+<!--            		start:00:02:54:00 -->
+           		start: 22,
+           		end: 72,
+           		
+           		onStart: function( options ) {
+           		
+           		document.getElementById ("info_page").classList.remove("display_none")
+           		document.getElementById ("standPage_wrap").classList.add("display_none")
+           		
+           		}
+           		
+           		});
+           		
+
+        
+ 	pop.play(); 
+
+			}, false);
+
+</script>  
+  
+ <body>
+ 
+<div id="info_page" class="display_none">
+ 
+	<div id="info_mat" >
+
+			<div id="info">
+		
+				<div class='who'><strong>Between 2003 and 2011</strong></div>
+				<div class='num'><strong><span class="total"> 4,259,659 </span> people </strong></div>
+				<div class='stats'><strong>were stopped & searched </strong></div>
+				<div class='stats2'><strong>by NYPD</strong></div>
+
+			</div>
+		
+				<div id="data">
+		
+					<ul>
+						<li><a href="http://www.furaha-robin.com/~robinreid/Player/who.html">Who?</a></li>
+						<li>Where?</li>
+						<li><a href="http://www.furaha-robin.com/~robinreid/Player/why.html">Why?</a></li>
+
+					</ul>						
+				</div>
+		</div>
+	<div id="stand"><a href="http://www.furaha-robin.com/~robinreid/Player/soundoff.html"><strong>STATE YOUR POSITION</strong></a></div>
+<!--
+		<div class="loop"><audio autoplay="autoplay">
+			
+				<source src='audio/S&Ftrimp3.mp3'>
+
+				</audio>
+-->
+		</div>
+	</div>	
+ 
+
+<div id="standPage_wrap"> 
+	
+	<div id="title">FRISKED</div>  
+<!--   	<div id="right_wall"><img src="http://furaha-robin.com/~robinreid/Player/images/snfgraffitti.jpg" width="600" height="600"></div>   -->
+ 		
+<div id="right_wall"><img src="http://furaha-robin.com/~robinreid/Player/images/brickwall6.png" width="600" height="600"></div> 
+ 	<div id="wall"><img src="http://www.furaha-robin.com/~robinreid/Player/images/brickwall6.png" width="600" heiht="600"></div> 
+
+	
+
+
+
+	<div id="manGrey">
+
+  			<img src="http://www.furaha-robin.com/~robinreid/Player/images/manFrisked2.png" width="410" height="600">
+  			
+  		</div>
+
+
+
+  		
+    	<div id="video_container">
+    	
+            		<video height="400" width="500" id="video_player"  controls>
+       
+            				<source src="http://www.furaha-robin.com/~robinreid/Player/video/40secopen.mp4">
+           					<source src="http://www.furaha-robin.com/~robinreid/Player/video/40secopen.webm">
+            
+            		</video>
+            
+				<div id="footnote"></div>
+	
+		</div>
+	</div> 
+
+	</body>
+</html>
