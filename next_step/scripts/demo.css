@@ -47,7 +47,7 @@ small {
 }
 
 del {
-	opacity: 0.3;
+	opacity: 0.8;
 }
 
 .sharing {
@@ -58,8 +58,9 @@ del {
 
 .forkit-curtain {
 	text-align: center;
-	background: rgba( 0, 0, 0, 0.8 );
-	padding-top: 10%;
+	background: rgb( 0, 0, 0);
+/* 	background: rgba(); */
+ 	padding-top: 10%; 
 }
 	.forkit-curtain  .close-button {
 		position: absolute;

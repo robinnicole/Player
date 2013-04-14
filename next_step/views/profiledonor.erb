@@ -16,15 +16,15 @@
 <div id="container">
 		
  			 <div id="header">
- 			 	<h1> Students: Tell Us About Yourself </h1>
+ 			 	<h1> Donors: Tell Us About Yourself </h1>
  				
-  					<div id = "studentinstruct" class="intro">
-					With this profile you will be providing the information that we will display to donors. You are not required to fill out every section, but 					keep in mind, he more you fill out the more excited people will be contribute to the fund. In each section you have an option to get 							additional tips an pointers on how to complete the section
+  					<div id = "donorinstruct" class="intro">
+					Your information Profile serves 2 purposes first to collecting financial information, but also to get a survey of your interests to give you the best sample of the students in our group. 
 					</div>
  			
 			</div>
 		
- 		 <div id = "student_info" class="info_wrap">
+ 		 <div id = "donor_info" class="info_wrap">
 			
 				<div id = "student_form" >
 					
@@ -32,7 +32,7 @@
 			 		
   						<div id="name">
   						
-  							First Name:<input type="text" name="first" style="background-color:#6D8498";/>
+  							First Name:<input type="text" name="first"/>
   						
 							Last Name:<input type="text" name="last"/>
 							
@@ -40,12 +40,12 @@
 				
 					<div id="bio_form" class="form_elements">	
 					
-					<p>Your Biography<span style="color:red"> (required)</span></br><textarea name="bio" rows="9" cols="90"></textarea></p>
+						<p>Share some aspects of your career or life that you think might help a student figure out where they want to go</br><textarea name="bio" rows="9" cols="90"></textarea></p>
 						
 							<div id="bio_tips" class="helplinks">
-<!-- 				<button onclick="javascript:location='http://www.furaha-robin.com/~robinreid/velocidi/bio_help.html';">clickme </button> -->
+					
 
-								<a href="http://www.furaha-robin.com/~robinreid/sinatra/next_step/bio_help">TIPS/TOOLS:Bio</a> 
+								<a href="next_step/views/static/bio_help.erb">TIPS: Bio Writing</a>
 								</div> 
 						
 							</div>	
@@ -54,7 +54,7 @@
 				<div id ="image" class="form_elements">
 				
 					<div id="picture_tips" class="helplinks">
-						<a href="http://www.furaha-robin.com/~robinreid/sinatra/next_step/image_help">TIPS/TOOLS:</br>Picture</a>
+						<a href="next_step/views/static/image_help.erb">TIPS:Perfect Picture</a>
 					</div>				
 					
 					
@@ -70,7 +70,7 @@
 				<div id="movie" class="form_elements">
 					
 					<div id="movie_tips" class="helplinks">
-						<a href="next_step/views/static/movie_help.erb">TIPS/TOOLS</br>Movies</div></a>
+						<a href="next_step/views/static/movie_help.erb">TIPS: Movies</a></div>
 					
 					   
 					<div id="movie_link">The link to embed your movie
@@ -85,7 +85,7 @@
 				<div id="vision"class="form_elements">
 				
 					<div id="vision_tips" class="helplinks">
-						<a href="next_step/views/static/mural_help.erb">TIPS:  Future</a>
+						<a href="next_step/views/static/mural_help.erb">TIPS:Vision Board</a>
 					</div>
 					
  					   
@@ -96,20 +96,6 @@
 										 
 						
 					</div>
-				</div>
-				
-				<div id="student_interests" class="interests"> How would you describe the future you?
-					<ul>
-						<li><input type="checkbox">Athelete</li>
-						<li><input type="checkbox">Artist</li>
-						<li><input type="checkbox">Fashion</li>
-						<li><input type="checkbox">Science</li>
-						<li><input type="checkbox">Politics</li>
-						<li><input type="checkbox">Literature/Writing</li>
-						
-					</ul>
-				
-				
 				</div>
 
 						<div id="complete" >

@@ -1,0 +1,71 @@
+@font-face {
+
+url(http://fonts.googleapis.com/css?family=Merriweather+Sans|Sintony:400,700);
+
+}
+
+body{
+
+height: 100%;
+width: 100%;
+font-family:'Merriweather Sans', sans-serif;
+background: url(.../images/views/light_toast@2X.png);
+background-size: cover;
+
+
+
+}
+
+#container {
+position: absolute;
+width: 72%;
+height: 102%;
+left: 12%;
+top: 27px;
+bottom: -65px;
+overflow: scroll;
+padding-left: 28px;
+border-radius: 8px;
+background: #6D8498;
+}
+.helpvids{
+position: absolute;
+left: 20%;
+background-color: black;
+}
+
+h2 h3{
+position: absolute;
+margin-left: 15%;
+}
+
+#biovideo {
+
+position: absolute;
+top: 8%;
+left: 20%;
+background-color: black;
+
+}
+
+
+#bio_info{
+top: 55%;
+}
+
+
+
+.tipstxt{
+
+left: 20%;
+width: 590px;
+height: 300px;
+/* background-color: fuchsia; */
+border-top-color: white;
+border-top-style: solid;
+border-top-width: thin;
+font-family: 'Sintony', sans-serif;
+font-weight: 400;
+color: white;
+
+}

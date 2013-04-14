@@ -1,57 +1,45 @@
 --- 
 - id: 1
   first: jilll
-  bio: runs through the niht
   last: bill
+  bio: runs through the niht
 - id: 2
   first: Robin
-  bio: i am a student in high school
   last: Reid
+  bio: i am a student in high school
 - id: 3
   first: Robin
-  bio: ""
-  last: ""
+  bio: this and that
+  last: Reid
 - id: 4
   first: Robin
-  last: ""
-  bio: ""
+  bio: sheeeeeee
+  last: Reid
 - id: 5
   first: Robin
   last: Reid
-  bio: "please go to bed! "
+  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a nibh sit amet eros euismod euismod et vitae arcu. Curabitur enim sem, convallis et fermentum tempus, cursus vel justo. Mauris quis risus sed nisi pretium dictum. Proin ultrices, arcu nec consectetur euismod, velit ante tempus ipsum, in laoreet tortor arcu quis nibh. Nam sed lorem quis ante viverra pharetra. Donec vulputate dignissim augue, ac lacinia mauris cursus ut. Fusce venenatis mattis purus, congue varius lectus condimentum at. In convallis volutpat blandit. Sed rutrum justo eget sapien feugiat viverra. Aenean a erat id sapien iaculis egestas. Mauris tortor mauris, lacinia vel malesuada scelerisque, tempus vitae libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 - id: 6
-  first: stop
-  bio: you have to sleep
-  last: yourself
+  first: Luuu
+  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a nibh sit amet eros euismod euismod et vitae arcu. Curabitur enim sem, convallis et fermentum tempus, cursus vel justo. Mauris quis risus sed nisi pretium dictum. Proin ultrices, arcu nec consectetur euismod, velit ante tempus ipsum, in laoreet tortor arcu quis nibh. Nam sed lorem quis ante viverra pharetra. Donec vulputate dignissim augue, ac lacinia mauris cursus ut. Fusce venenatis mattis purus, congue varius lectus condimentum at. In convallis volutpat blandit. Sed rutrum justo eget sapien feugiat viverra. Aenean a erat id sapien iaculis egestas. Mauris tortor mauris, lacinia vel malesuada scelerisque, tempus vitae libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+  last: LAAA
 - id: 7
-  first: robin
-  bio: you are going to be mad at yourself tomorrow
+  first: "Robin "
   last: Reid
+  bio: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 - id: 8
-  first: "this "
-  last: "has "
-  bio: to stop, you need to sleep
+  first: ""
+  bio: ""
+  last: ""
 - id: 9
-  first: you
-  last: must
-  bio: sleeep
+  first: ""
+  last: ""
+  bio: ""
 - id: 10
-  first: me
-  last: mine
-  bio: yours
+  first: ""
+  bio: ""
+  last: ""
 - id: 11
-  first: this
-  last: "that "
-  bio: the other
-- id: 12
-  first: "me "
-  last: you
-  bio: and the others
-- id: 13
-  first: llaa
-  bio: saaaa
-  last: llass
-- id: 14
-  first: this
-  bio: the other
-  last: that
+  first: ""
+  bio: ""
+  last: ""
